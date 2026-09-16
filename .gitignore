@@ -1,0 +1,29 @@
+# AI planning/agent docs — not part of the published repo
+.agent/
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Profiles, coverage, benchmark output
+*.prof
+coverage*
+bench-results/
+
+# Crash harness artifacts
+crash-artifacts/
+
+# Local DB directories created by ad-hoc runs
+/data/
+*.lsmkv/
+
+# Editor / OS cruft
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+*:Zone.Identifier
